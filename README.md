@@ -25,17 +25,16 @@ Risks & Open Questions
 SchoolApp.BL.Tests existe pero no se usará en este trabajo
 Validaciones básicas pueden variar, usaremos null checks y rangos simples
 Asumimos que todos los repositorios usan el patrón genérico IRepository
-Progreso: 22% [██░░░░░░░░]
 
 Última actualización: 2026-11-03 03:29:07
 
-📝 Pasos del plan
-✅ Analizar SchoolApp.DAL/Models para confirmar entidades
-🔄 Analizar SchoolApp.DAL/Repositories para listar repositorios existentes y faltantes
+ Pasos del plan
+ Analizar SchoolApp.DAL/Models para confirmar entidades
+ Analizar SchoolApp.DAL/Repositories para listar repositorios existentes y faltantes
 Crear repositorios faltantes (EnrollmentRepository, IEnrollmentRepository, StudentGradeRepository, IStudentGradeRepository)
 Crear carpeta SchoolApp.BL/Services y todos los servicios (6 interfaces + 6 implementaciones)
 Verificar referencias entre proyectos y agregar si faltan
-✅ Crear y registrar DependencyInjection.cs en SchoolApp.BL
+ Crear y registrar DependencyInjection.cs en SchoolApp.BL
 Verificar que ApplicationSetup.cs en SchoolApp.Web llama al registro
 Compilar solución y corregir errores
 Generar resumen de cambios
